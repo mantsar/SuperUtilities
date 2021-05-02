@@ -190,7 +190,7 @@ PifEqual : Pattern {
   }
 }
 
-Plsys : Pattern {
+Pls : Pattern {
   var <>pattern, <>dict, <>levels;
   *new { |pattern, dict, levels=1|
     ^super.newCopyArgs(pattern, dict, levels);
